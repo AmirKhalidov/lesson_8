@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+
+.business-card {
+    width: 555px;
+    height: 319px;
+    padding: 20px;
+    background-image: url(https://www.100maketov.ru/storage/low/58e34e166e45324c61fb70a9);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.btn-element {
+    position: relative;
+    padding: 16px 32px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: purple;
+    background-color: transparent;
+    background-image: url(https://pngimg.com/d/buttons_PNG128.png);
+    background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+}
+
+.btn-element:hover {
+    background-position-y: 1px;
+}
+
+.find-element {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/037/814/719/small_2x/ai-generated-autumn-leaves-in-the-forest-nature-background-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    margin-bottom: -200px;
+}
+
+.find-element p {
+    color: rgba(255, 0, 0, 0.1);
+    display: inline-block;
+}
+
+span {
+    position: absolute;
+}
+
+.first {
+    top: 15px;
+    left: 180px;
+}
+
+.second {
+    top: 37px;
+    left: 180px;
+}
+
+.third {
+    top: 60px;
+    left: 180px;
+}
+
+.profile-page {
+    width: 800px;
+    height: 400px;
+    background-image: url(https://cdn.openart.ai/uploads/image_9f72DDqa_1721753893864_raw.jpg);
+    background-position: top;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.profile-page img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20%;
+    left: 42%;
+}
+
+.profile-page h1 {
+    position: absolute;
+    left: 40%;
+    bottom: -30%;
+}
+
+.profile-page p {
+    position: absolute;
+    left: 41%;
+    bottom: -35%;
+}
